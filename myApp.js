@@ -3,7 +3,7 @@ var app = express();
 console.log("Hello World");
 
 app.get("/", (req, res) => {
-    app.send("Hello Express");
+    res.send("Hello Express");
 });
 
 
